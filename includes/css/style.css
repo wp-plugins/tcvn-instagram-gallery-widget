@@ -1,0 +1,51 @@
+/*
+Plugin Name: TCVN Post Widget
+Plugin URI: http://VinaThemes.biz
+Description: A widget that show posts with many choose to display.
+Version: 1.0
+Author: VinaThemes
+Author URI: http://VinaThemes.biz
+Author email: mr_hiennc@yahoo.com
+Demo URI: http://VinaDemo.biz
+Forum URI: http://laptrinhvien-vn.com
+License: GPLv3+
+*/
+
+#tcvn-post-widget ul {
+    list-style: none outside none;
+    margin-left: 0;
+    margin-top: -2px;
+}
+#tcvn-post-widget li {
+	border-bottom: 1px solid #DEDEDE;
+    line-height: 18px;
+    padding: 5px 0;
+}
+#tcvn-post-widget li a {
+	color: #21759B;
+    font-weight: normal;
+    text-decoration: none;
+}
+#tcvn-post-widget li a:hover {
+	color: #d54e21;
+}
+#tcvn-post-widget .post-info {
+	padding: 5px 0;
+}
+#tcvn-post-widget .post-introtext {
+	line-height: 22px;
+    padding: 5px 0;
+}
+#tcvn-post-widget .post-extra {
+	padding: 5px 0;
+}
+#tcvn-post-widget .comment {
+	border-right: 1px solid #848484;
+    margin: 0 8px 0 0;
+    padding: 0 4px 0 0;
+}
+div#tcvn-copyright {
+	font-size: 12px;
+    height: 0;
+    overflow: hidden;
+}
